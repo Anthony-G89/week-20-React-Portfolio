@@ -1,25 +1,28 @@
 import React, { Component } from "react";
 import ReactDOM from "react-dom";
-import { BrowserRouter as Router, Route } from "react-router-dom";
-import Header from "../src/components/Header";
+import Bootstrap from "react-bootstrap";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import NavBar from "./components/NavBar";
 // import Footer from "../src/components/Footer";
 
 
 function App() {
     return (
-        <Router>
-            <div>
-                <Header />
-            </div>
+        <div>
 
+            <Router>
+                <Route component={NavBar} />
 
-
-
-        </Router>
+            </Router>
+        </div>
 
 
 
     )
 }
 
-export default App; 
+export default App;
+
+const home = props => {
+
+}
