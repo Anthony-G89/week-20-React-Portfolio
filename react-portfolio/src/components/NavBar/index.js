@@ -7,7 +7,7 @@ const NavBar = props => {
     const location = useLocation();
     
     return (
-        <ul className="nav ">
+        <ul className="nav justify-content-end">
             <li className="nav-item">
                 <Link to="/About_me" className={location.pathname === "/About me" ? "nav-link active" : "nav-link"}>
                     About Me |
