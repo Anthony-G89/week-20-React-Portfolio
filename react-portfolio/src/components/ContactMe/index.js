@@ -8,6 +8,7 @@ const ContactMe = props => {
 
     return (
         <>
+       
             {/* <ul className="nav justify-content-end">
                 <li className="nav-item">
                     <Link to="/About_me" className={location.pathname === "/About me" ? "nav-link active" : "nav-link"}>
@@ -31,6 +32,7 @@ const ContactMe = props => {
             </ul> */}
 
             <Container>
+            <title>Contact me</title>
             <div className="container-form">
                 <h2 className="contact-h2">Contact</h2>
                 <div className="form-group">
