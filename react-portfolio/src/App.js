@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 // import NavBar from "./components/NavBar";
 import aboutMeHeader from "./components/AboutMe";
 import ContactMe from "./components/ContactMe";
+import Portfolio from "./components/Portfolio";
 import Footer from "./components/Footer";
 
 
@@ -16,9 +17,10 @@ function App() {
                 <NavItem><Link to="/portfolio"> Portfolio | </Link></NavItem>
                 <NavItem><Link to="/contact-me">Contact Me </Link></NavItem>
                 </Navbar>
-                {/* <Route component={NavBar} /> */}
+                {/* <Route  component={NavBar} /> */}
                 <Route exact path="/" component={aboutMeHeader} />
                 <Route exact path="/contact-me" component={ContactMe} /> 
+                <Route exact path="/portfolio" component={Portfolio} /> 
                 <Route component={Footer} />
             </Router>
         </div>
