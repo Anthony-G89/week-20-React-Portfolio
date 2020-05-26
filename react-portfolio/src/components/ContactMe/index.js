@@ -31,7 +31,7 @@ const ContactMe = props => {
                 </li>
             </ul> */}
 
-            <Container className="pt-5">
+            <Container className="pt-5 ">
             <title>Contact me</title>
             <div className="container-form shadow-lg p-3 mb-5 bg-white rounded">
                 <h2 className="contact-h2">Contact</h2>
@@ -50,7 +50,7 @@ const ContactMe = props => {
                     <label for="exampleFormControlTextarea1" >Message:</label>
                     <textarea className="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" ></textarea>
                     <br />
-                    <button type="button" className="btn btn-primary" >Submit</button>
+                    <button type="button" className="btn btn-primary" onClick={} >Submit</button>
 
                 </div>
             </div>
