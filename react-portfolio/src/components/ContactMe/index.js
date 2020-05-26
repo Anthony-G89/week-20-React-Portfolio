@@ -36,21 +36,21 @@ const ContactMe = props => {
             <div className="container-form shadow-lg p-3 mb-5 bg-white rounded">
                 <h2 className="contact-h2">Contact</h2>
                 <div className="form-group">
-                    <label for="exampleFormControlInput1">Name:</label>
-                    <input type="text" className="form-control" id="exampleFormControlInput1" />
+                    <label >Name:</label>
+                    <input type="text" className="form-control"  />
                 </div>
 
                 <div className="form-group">
-                    <label for="exampleFormControlInput1">Email address:</label>
-                    <input type="text" email="" className="form-control" id="exampleFormControlInput1" />
+                    <label >Email address:</label>
+                    <input type="email"  className="form-control" placeholder="Enter your email"/>
                 </div>
 
 
                 <div className="form-group">
-                    <label for="exampleFormControlTextarea1" >Message:</label>
-                    <textarea className="form-control" id="exampleFormControlTextarea1" cols="30" rows="10" ></textarea>
+                    <label >Message:</label>
+                    <textarea className="form-control" cols="30" rows="10" ></textarea>
                     <br />
-                    <button type="button" className="btn btn-primary" onClick={} >Submit</button>
+                    <button type="button" className="btn btn-primary">Submit</button>
 
                 </div>
             </div>
