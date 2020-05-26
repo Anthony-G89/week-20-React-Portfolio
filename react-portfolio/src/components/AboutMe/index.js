@@ -8,10 +8,11 @@ const name = "Anthony Guerrero"
 const aboutMeHeader = props => {
     return (
         <>
-            <h2 className="text-center">{name}</h2>
+            <h2 className="myName text-center">{name}</h2>
             <div className="row justify-content-center">
-                <p className="col-4 pt-4">
-                    My name is Anthony Guerrero, I was born in <strong>Queens, NY</strong> and when I was 12 years old I moved to
+                <Container >
+                    <p className="col-md-5 text-center bio ">
+                        My name is Anthony Guerrero, I was born in <strong>Queens, NY</strong> and when I was 12 years old I moved to
                     <strong> Orlando, FL</strong> and have been here since. I went to <em>Cypress Creek High School</em> and
                     graduated in 2008.
                     After that, I went to Valencia College with the intnention of majoring in Business Administration. But soon
@@ -25,6 +26,7 @@ const aboutMeHeader = props => {
                     took 28 years of my life but I'm glad that I didn't rush into my major and spent thousands of dollars for a
                     career that I wasn't going to be happy with.
                     </p>
+                </Container>
 
             </div>
         </>

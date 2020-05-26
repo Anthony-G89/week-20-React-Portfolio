@@ -18,10 +18,10 @@ console.log(StackChat);
 const portfolio = props => {
     return (
         <div>
-            <Container className="portfolio-container pt-4">
+            <Container className="portfolio-container pt-4 shadow-lg p-3 mb-5 bg-white rounded">
                 <h2>Portfolio</h2>
-                <hr/>
-                <h2>Front End Work</h2>
+                <hr />
+                <h3>Front End Work</h3>
                 <div className="row .w-100">
                     <div className="col">
                         <img src={PasswordGenerator} alt="password Generator ScreenShot" width="150px" height="150px" />
@@ -46,8 +46,8 @@ const portfolio = props => {
                     <div className="col">
                         <div><img src={GoodReadme} alt="password Generator ScreenShot" width="150px" height="150px" /></div>
                     </div>
-                </div>    
-                
+                </div>
+
                 <hr />
 
                 <h3>Projects</h3>
@@ -60,6 +60,7 @@ const portfolio = props => {
                     </div>
                 </div>
                 <hr />
+
                 <h3> Back End Work</h3>
                 <div className="row rowThree">
                     <div className="col">

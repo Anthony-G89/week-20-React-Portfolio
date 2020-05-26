@@ -1,6 +1,9 @@
 .bio{
-    margin-left: 110px;
-    background-color: lightgray;   
-    margin-top: 20px; 
+    margin: auto;
+    padding: auto; 
+}
 
+.myName{
+    color: red;
+  
 }

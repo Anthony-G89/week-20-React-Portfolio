@@ -31,9 +31,9 @@ const ContactMe = props => {
                 </li>
             </ul> */}
 
-            <Container>
+            <Container className="pt-5">
             <title>Contact me</title>
-            <div className="container-form">
+            <div className="container-form shadow-lg p-3 mb-5 bg-white rounded">
                 <h2 className="contact-h2">Contact</h2>
                 <div className="form-group">
                     <label for="exampleFormControlInput1">Name:</label>
