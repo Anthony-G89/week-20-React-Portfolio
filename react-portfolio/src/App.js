@@ -12,7 +12,7 @@ function App() {
     return (
         <div>
             <Router>
-                <Navbar className="justify-content-end">
+                <Navbar className="justify-content-end mr-3">
                 <NavItem><Link to="/">AboutMe | </Link></NavItem>
                 <NavItem><Link to="/portfolio"> Portfolio | </Link></NavItem>
                 <NavItem><Link to="/contact-me">Contact Me </Link></NavItem>
