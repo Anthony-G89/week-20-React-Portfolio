@@ -18,7 +18,7 @@ console.log(StackChat);
 const portfolio = props => {
     return (
         <div>
-            <Container className="portfolio-container pt-4 shadow-lg p-3 mb-5 bg-white rounded">
+            <Container className="portfolio-container pt-4 shadow-lg p-3  bg-white rounded">
                 <h2>Portfolio</h2>
                 <hr />
                 <h3>Front End Work</h3>
