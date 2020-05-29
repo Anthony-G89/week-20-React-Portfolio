@@ -1,46 +1,19 @@
-import React from "react";
-// import { Link, useLocation } from "react-router-dom";
+import React, { Component } from "react";
 import { Container } from "react-bootstrap";
 
 
-const ContactMe = props => {
-    // const location = useLocation();
+class EmailMe extends React.Component {
 
-    function SubmitMessage(e) {
-        e.preventDefault();
-        console.log("hi");
-
-
+    emailAnt() {
+        alert("clicked on")
     }
 
-    return (
-        <>
 
-            {/* <ul className="nav justify-content-end">
-                <li className="nav-item">
-                    <Link to="/About_me" className={location.pathname === "/About me" ? "nav-link active" : "nav-link"}>
-                        About Me |
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        to="/portfolio"
-                        className={location.pathname === "/portfolio" ? "nav-link active" : "nav-link"}>
-                        Portfolio |
-                    </Link>
-                </li>
-                <li className="nav-item">
-                    <Link
-                        to="/Contact Me"
-                        className={location.pathname === "/contact" ? "nav-link active" : "nav-link"}>
-                        Contact Me
-                    </Link>
-                </li>
-            </ul> */}
-
-            <Container className="pt-5 ">
+    render() {
+        return (
+            <Container className="pt-3">
                 <title>Contact me</title>
-                <div className="container-form shadow-lg p-3 mb-5 bg-white rounded">
+                <div className="container-form shadow-lg p-3 bg-white rounded">
                     <h2 className="contact-h2">Contact</h2>
                     <div className="form-group">
                         <label >Name:</label>
@@ -57,21 +30,44 @@ const ContactMe = props => {
                         <label >Message:</label>
                         <textarea className="form-control" cols="30" rows="10" ></textarea>
                         <br />
-                        <button type="button" className="btn btn-primary" >Submit</button>
+                        <button type="button" className="btn btn-primary " onClick={this.emailAnt} >Submit</button>
                     </div>
                 </div>
             </Container>
 
+        )
+    }
+};
+
+export default EmailMe;
 
 
 
+//     function sendEmail(e) {
+//       e.preventDefault();
+  
+//       emailjs.sendForm('anthony_guerrero89', 'YOUR_TEMPLATE_ID', e.target, '')
+//         .then((result) => {
+//             console.log(result.text);
+//         }, (error) => {
+//             console.log(error.text);
+//         });
+//     }
+  
+//     return (
+//       <form className="contact-form" onSubmit={sendEmail}>
+//         <input type="hidden" name="contact_number" />
+//         <label>Name</label>
+//         <input type="text" name="user_name" />
+//         <label>Email</label>
+//         <input type="email" name="user_email" />
+//         <label>Message</label>
+//         <textarea name="message" />
+//         <input type="submit" value="Send" />
+//       </form>
+//     );
+//   }
 
+  
+  
 
-
-
-
-        </>
-    )
-}
-
-export default ContactMe;

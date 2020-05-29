@@ -1,4 +1,9 @@
 .portfolio-container{
-    background-color: rgb(25, 7, 190);
+    background-color: darkcyan;
     margin-bottom: 120px;
+    padding-bottom: 15px;
+}
+
+.Links{
+    cursor: pointer;
 }
