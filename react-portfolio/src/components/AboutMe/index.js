@@ -2,32 +2,23 @@ import React from "react";
 import { Container } from "react-bootstrap";
 import "./style.css";
 
-const name = "Anthony Guerrero"
+const name = "Anthony Guerrero";
+// const title = "Full Stack Developer";
 
 
 const aboutMeHeader = props => {
     return (
         <>
             <h2 className="myName text-center">{name}</h2>
-            <div className="row justify-content-center">
+
+            <div className="row ">
                 <Container >
-                    <p className="col-md-5 text-center bio ">
-                        My name is Anthony Guerrero, I was born in <strong>Queens, NY</strong> and when I was 12 years old I moved to
-                    <strong> Orlando, FL</strong> and have been here since. I went to <em>Cypress Creek High School</em> and
-                    graduated in 2008.
-                    After that, I went to Valencia College with the intnention of majoring in Business Administration. But soon
-                    after, I realized it wasn't for me. I spent the next couple of years trying to figure out what I wanted to
-                    do with my life. During that time, I did hospitality for several years. I was fortunate to make cash daily,
-                    drive cars that some people have only seen in movies or online, and met some celebrities along the way.
-                    However, hospitality is not what I wanted to do for the rest of my life. I envisioned my future and what I
-                    wanted, I always heard about coding but never really paid much mind to it. Until, two years ago, when I
-                    decided to look into coding and seeing what other careers looked like. After I did my research and started
-                    watching videos of people coding I fell in love and finally knew what I wanted to do with my life. It only
-                    took 28 years of my life but I'm glad that I didn't rush into my major and spent thousands of dollars for a
-                    career that I wasn't going to be happy with.
+                    <p className=" col-md-5  bio ">
+                     I'm a driven professional with broad technical skill set. Completed UCF Coding Boot Camp with full-stack developer experience, voted best project. User-focused Web Developer with a passion for integrating technologies to solve problems and improve upon existing methods. Fast learner, hard worker and team player who is proficient in an array of scripting languages and multimedia tools.
+
+
                     </p>
                 </Container>
-
             </div>
         </>
     )

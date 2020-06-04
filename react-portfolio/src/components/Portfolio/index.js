@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 import "./style.css";
 import { Container } from "react-bootstrap";
 import StackChat from "../../images/STACK_CHAT.png";
@@ -20,7 +20,7 @@ import EmployeeDirectory from "../../images/employee_directory.png";
 class clickAbleLinks extends React.Component {
 
     navigateToGitHubProject(repo) {
-        window.open(`https://github.com/knuckleh3ad89/${repo}`);
+        window.open(`https://github.com/Anthony-G89/${repo}`);
     }
 
     navigateToHeroku(repo) {
@@ -31,9 +31,9 @@ class clickAbleLinks extends React.Component {
         return (
             <div >
                 <Container className="portfolio-container pt-4 ">
-                    <h2>Portfolio</h2>
+                    <h2 className="portfolioHeaders">Portfolio</h2>
                     <hr />
-                    <h3>Front End Work</h3>
+                    <h3 className="portfolioHeaders">Front End Work</h3>
                     <div className="row .w-100">
                         <div className="col " onClick={() => this.navigateToGitHubProject("password-Generator")} >
                             <img src={PasswordGenerator} className="Links" alt="password Generator ScreenShot" width="150px" height="150px" />
@@ -62,7 +62,7 @@ class clickAbleLinks extends React.Component {
 
                     <hr />
 
-                    <h3>Projects</h3>
+                    <h3 className="portfolioHeaders">Projects</h3>
                     <div className="row rowTwo">
                         <div className="col-md-3" onClick={() => this.navigateToGitHubProject("Project_One")}>
                             <img src={LocalWire} className="Links" alt="Local Wire" width="150px" height="150px" />
@@ -73,7 +73,7 @@ class clickAbleLinks extends React.Component {
                     </div>
                     <hr />
 
-                    <h3> Back End Work</h3>
+                    <h3 className="portfolioHeaders"> Back End Work</h3>
                     <div className="row rowThree">
                         <div className="col" onClick={() => this.navigateToHeroku("evening-wildwood-16240")}>
                             <img src={NoteTaker} className="Links" alt="Note Taker Homepage" width="150px" height="150px" />

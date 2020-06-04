@@ -5,6 +5,11 @@
   padding: 3px;
 }
 
+.myNavBar{
+  font-size: large;
+  font-weight: bold;
+
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
