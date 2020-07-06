@@ -1,3 +1,7 @@
+body {
+    background-image: url(../../images/triangle-mosaic.png);
+}
+
 .bio{
     margin: auto;
     padding-top: 20px;
