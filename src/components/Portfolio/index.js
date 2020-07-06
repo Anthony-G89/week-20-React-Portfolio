@@ -15,6 +15,7 @@ import EmployeeTracker from "../../images/Employee-Tracker.png";
 import FitnessTracker from "../../images/home_fitness_tracker.png";
 import BudgetTracker from "../../images/budget-tracker.png";
 import EmployeeDirectory from "../../images/employee_directory.png";
+import MeetHub from "../../images/MeetHub.png";
 
 
 class clickAbleLinks extends React.Component {
@@ -69,6 +70,9 @@ class clickAbleLinks extends React.Component {
                         </div>
                         <div className="col-md-3" onClick={() => this.navigateToGitHubProject("STACKCHAT")}>
                             <img src={StackChat} className="Links" alt="StackChat" width="150px" height="150px" />
+                        </div>
+                        <div className="col-md-3" onClick={() => this.navigateToHeroku("ucf-meethub")}>
+                            <img src={MeetHub}  className="Links" alt="StackChat" width="150px" height="150px" />
                         </div>
                     </div>
                     <hr />
